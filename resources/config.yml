@@ -1,0 +1,65 @@
+## Dream-Warps (Main-Config) ##
+
+# Czas oczekiwania na teleportację (w sekundach)
+teleport-delay: 3
+
+# O ile maksymaln8ie gracz moze sie poruszyc
+movement-threshold: 0.5
+
+# GUI
+gui:
+  title: "§6§lWarpy"
+  size: 54
+
+# Zapisane warpy
+warpy:
+  enabled: true
+  warps:
+    warp1:
+      world: "world"
+      x: 0.5
+      y: 64.0
+      z: 0.5
+      yaw: 0.0
+      pitch: 0.0
+      gui-slot: 0
+      permission: "dreamwarp.warp1"
+      icon: "BEACON"
+      display-name: "&6&lWarp pierwszy"
+      description:
+        - ""
+        - "&fTaki warp taki o"
+        - ""
+        - "&aKliknij aby się teleportować!"
+    warp2:
+      world: "world"
+      x: 100.5
+      y: 64.0
+      z: 100.5
+      yaw: 90.0
+      pitch: 0.0
+      gui-slot: 1
+      permission: "dreamwarp.warp2"
+      icon: "DIAMOND_SWORD"
+      display-name: "&c&lWaro drugi"
+      description:
+        - ""
+        - "&fTaki drugi sobie warp"
+        - ""
+        - "&aKliknij aby się teleportować!"
+    warp3:
+      world: "world"
+      x: -50.5
+      y: 64.0
+      z: 50.5
+      yaw: 180.0
+      pitch: 0.0
+      gui-slot: 2
+      permission: "dreamwarp.warp3"
+      icon: "EMERALD"
+      display-name: "&a&lwarp 3 z fajnym emeraldem"
+      description:
+        - ""
+        - "&fok pa"
+        - ""
+        - "&eKliknij aby się teleportować!"
