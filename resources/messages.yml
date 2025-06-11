@@ -1,0 +1,85 @@
+## Dream-Warps (Message-Config) ##
+# Dostępne typy: (DO_NOT_SEND, CHAT, ACTION_BAR, SUBTITLE, TITLE, TITLE_SUBTITLE)
+
+# Wiadomości dla warpów
+warp-created:
+  type: CHAT
+  text: '&aWarp &6{name} &azostał utworzony!'
+
+warp-deleted:
+  type: CHAT
+  text: '&aWarp &6{name} &azostał usunięty!'
+
+warp-not-found:
+  type: CHAT
+  text: '&cWarp o nazwie &6{name} &cnie istnieje!'
+
+warp-already-exists:
+  type: CHAT
+  text: '&cWarp o nazwie &6{name} &cjuż istnieje!'
+
+warp-no-permission:
+  type: CHAT
+  text: '&cNie masz uprawnień do tego warpa!'
+
+warp-teleporting:
+  type: CHAT
+  text: '&eTeleportacja za: &6{time}s &7(nie ruszaj się!)'
+
+warp-teleported:
+  type: CHAT
+  text: '&aTeleportowano do warpa: &6{name}'
+
+warp-teleport-cancelled:
+  type: CHAT
+  text: '&cTeleportacja została anulowana!'
+
+warp-already-teleporting:
+  type: CHAT
+  text: '&cJuż się teleportujesz!'
+
+warp-invalid-slot:
+  type: CHAT
+  text: '&cSlot musi być między 0 a {max}'
+
+warp-setwarp-usage:
+  type: CHAT
+  text: '&cUżycie: /setwarp <nazwa> <slot> <permisja>'
+
+warp-delwarp-usage:
+  type: CHAT
+  text: '&cUżycie: /delwarp <nazwa>'
+
+warp-warp-usage:
+  type: CHAT
+  text: '&cUżycie: /warp <nazwa>'
+
+warp-setwarp-info:
+  type: CHAT
+  text: '&7Slot: &f{slot} &7| Permisja: &f{permission}'
+
+# Wiadomości dla komendy /awarp
+awarp-usage:
+  type: CHAT
+  text: '&cUżycie: /awarp <reload>'
+
+awarp-reloaded:
+  type: CHAT
+  text: '&aKonfiguracja została przeładowana!'
+
+awarp-reload-error:
+  type: CHAT
+  text: '&cWystąpił błąd podczas przeładowywania konfiguracji!'
+
+# Ogólne wiadomości systemowe
+command-no-permission:
+  type: CHAT
+  text: '&cNie masz uprawnień do tej komendy!'
+
+command-not-player:
+  type: CHAT
+  text: '&cTa komenda może być wykonana tylko przez gracza!'
+
+command-invalid-format:
+  type: CHAT
+  text: '&cNieprawidłowy format argumentu: &6{input}'
