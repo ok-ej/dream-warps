@@ -1,0 +1,37 @@
+name: Dream-Warp
+version: '${project.version}'
+main: cc.dreamcode.dreamwarp.Main
+api-version: '1.18'
+authors: [ok_ej]
+description: Plugin na warpy dla dreamcode
+website: https://dreamcode.cc
+
+commands:
+  setwarp:
+    description: Ustawia nowy warp
+    usage: /setwarp <nazwa> <slot> <permisja>
+    permission: dreamwarp.admin
+  delwarp:
+    description: Usuwa warp
+    usage: /delwarp <nazwa>
+    permission: dreamwarp.admin
+  warp:
+    description: Teleportuje do warpa
+    usage: /warp <nazwa>
+    permission: dreamwarp.use
+  warps:
+    description: Otwiera GUI z warpami
+    usage: /warps
+    permission: dreamwarp.use
+  awarp:
+    description: Komenda admina (na razie sam reload ale moze kiedys dodam wiecej)
+    usage: /awarp <reload>
+    permission: dreamwarp.admin
+
+permissions:
+  dreamwarp.admin:
+    description: Permisja admina
+    default: op
+  dreamwarp.use:
+    description: Permisja na uzywanie warpow wgl
+    default: true
